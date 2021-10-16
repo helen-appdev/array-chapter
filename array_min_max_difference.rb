@@ -7,3 +7,8 @@
 #   difference
 
 array = [12, 23, 41, 73, 19, 6]
+
+sarray= array.sort
+p sarray.first
+p sarray.last
+p sarray.last - sarray.first
