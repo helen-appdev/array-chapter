@@ -11,5 +11,5 @@ p "Enter at least 2 numbers, separated by spaces:"
 user_string = gets.chomp
 user_numbers = user_string.split
 c = user_numbers.count
-d= user_numbers[c-2].to_i
+d= user_numbers[c-2].to_f
 p d**2
